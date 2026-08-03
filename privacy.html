@@ -39,7 +39,7 @@
     <section class="page-header">
       <div class="container">
         <h1>Privacy Policy</h1>
-        <p>FretShed &nbsp;·&nbsp; Last updated: July 26, 2026</p>
+        <p>FretShed &nbsp;·&nbsp; Last updated: August 3, 2026</p>
       </div>
     </section>
 
@@ -71,7 +71,7 @@
       <p>FretShed uses crash reporting so we can find and fix defects. We use Sentry (Functional Software, Inc.) on macOS and New Relic on iOS. When the app crashes or misbehaves, a report is sent containing the crash or error details along with technical context such as device model, operating system version, and app version. These reports are not linked to your identity and are not used for advertising.</p>
 
       <h2>4. Generated Content</h2>
-      <p>When you generate a solo, a request containing your chosen parameters (genre, key, tempo, speed) is sent to our backend server for processing. No personally identifiable information is included in this request. Generated audio is returned to your device and stored locally. We do not retain your generated audio on our servers.</p>
+      <p>When you generate a solo, a request containing your chosen parameters (genre, key, tempo, speed) is sent to our backend server for processing. No personally identifiable information is included in this request. Our backend produces the audio using third-party AI audio generation providers, currently ElevenLabs and Google's Lyria 2 model on Google Cloud. Only the generation parameters described above are sent to these providers. Generated audio is returned to your device and stored locally. We do not retain your generated audio on our servers.</p>
 
       <h2>5. iCloud Sync</h2>
       <p>Your saved-solo library, along with its settings such as stars and loop points, syncs across your devices through your private iCloud (CloudKit) database. This data belongs to your Apple Account and is stored by Apple; we cannot access it. You can turn sync off at any time by disabling iCloud for FretShed in your device's system settings.</p>
@@ -79,6 +79,8 @@
       <h2>6. Third-Party Services</h2>
       <p>FretShed uses the following third-party services, each with their own privacy policies:</p>
       <ul>
+        <li><a href="https://elevenlabs.io/privacy-policy" target="_blank" rel="noopener noreferrer">ElevenLabs</a> – AI audio generation</li>
+        <li><a href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank" rel="noopener noreferrer">Google Cloud</a> – AI audio generation (Lyria 2)</li>
         <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat</a> – subscription management</li>
         <li><a href="https://mixpanel.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Mixpanel</a> – anonymous usage analytics</li>
         <li><a href="https://sentry.io/privacy/" target="_blank" rel="noopener noreferrer">Sentry</a> – crash reporting on macOS</li>
@@ -87,7 +89,7 @@
       </ul>
 
       <h2>7. Data Retention</h2>
-      <p>Generated solos are stored locally on your device. You can delete them at any time within the app. If you have iCloud sync enabled, your saved-solo library is also stored in your private iCloud database, under your Apple Account. Analytics data is retained by Mixpanel in accordance with their data retention policy. Crash and diagnostic reports are retained by Sentry and New Relic in accordance with their data retention policies. Subscription data is retained by RevenueCat for as long as your subscription is active and for a reasonable period thereafter.</p>
+      <p>Generated solos are stored locally on your device. You can delete them at any time within the app. If you have iCloud sync enabled, your saved-solo library is also stored in your private iCloud database, under your Apple Account. Analytics data is retained by Mixpanel in accordance with their data retention policy. Crash and diagnostic reports are retained by Sentry and New Relic in accordance with their data retention policies. Generation requests sent to our AI audio generation providers are retained by those providers in accordance with their respective data retention policies. Subscription data is retained by RevenueCat for as long as your subscription is active and for a reasonable period thereafter.</p>
 
       <h2>8. Children's Privacy</h2>
       <p>FretShed is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will take steps to delete it.</p>
