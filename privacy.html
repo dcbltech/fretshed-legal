@@ -39,7 +39,7 @@
     <section class="page-header">
       <div class="container">
         <h1>Privacy Policy</h1>
-        <p>FretShed &nbsp;·&nbsp; Last updated: July 26, 2026</p>
+        <p>FretShed &nbsp;·&nbsp; Last updated: September 1, 2026</p>
       </div>
     </section>
 
@@ -54,7 +54,7 @@
       <p>We collect only what is necessary to operate the app and improve the experience.</p>
       <ul>
         <li><strong>Subscription & purchase information.</strong> When you subscribe to FretShed Pro, Apple processes your payment. We use RevenueCat to manage subscription status. RevenueCat receives a randomised device identifier and your subscription entitlement. It does not receive your name, email, or payment details.</li>
-        <li><strong>Usage analytics.</strong> We use Mixpanel to collect anonymous usage events (e.g. which features are used, how often solos are generated). This data is aggregated and is not linked to your identity. Mixpanel derives an approximate, city-level location from the IP address of analytics requests. FretShed never accesses your device's precise location (GPS), and the app does not request any location permission.</li>
+        <li><strong>Usage analytics.</strong> We use Mixpanel to collect anonymous usage events (e.g. which features are used, how often solos are generated). This data is aggregated and is not linked to your identity. Events are attributed to a randomly generated identifier. That identifier is stored in iCloud, so your devices are counted as one user rather than several. See section 5. Mixpanel derives an approximate, city-level location from the IP address of analytics requests. FretShed never accesses your device's precise location (GPS), and the app does not request any location permission.</li>
         <li><strong>Device information.</strong> Analytics and crash reporting tools may collect standard device information such as device model, operating system version, and app version. This is used solely to understand how the app performs across different devices.</li>
       </ul>
       <p>FretShed does not require you to create an account. We do not collect your name, email address, or any personally identifiable information directly.</p>
@@ -74,7 +74,11 @@
       <p>When you generate a solo, a request containing your chosen parameters (genre, key, tempo, speed) is sent to our backend server for processing. No personally identifiable information is included in this request. Generated audio is returned to your device and stored locally. We do not retain your generated audio on our servers.</p>
 
       <h2>5. iCloud Sync</h2>
-      <p>Your saved-solo library, along with its settings such as stars and loop points, syncs across your devices through your private iCloud (CloudKit) database. This data belongs to your Apple Account and is stored by Apple; we cannot access it. You can turn sync off at any time by disabling iCloud for FretShed in your device's system settings.</p>
+      <p>FretShed uses iCloud to keep your data consistent across the devices signed in to your Apple Account. Two separate mechanisms are involved.</p>
+      <p><strong>Your library.</strong> If you have an active subscription and are signed in to iCloud, your saved solos and recordings sync through your private iCloud (CloudKit) database. This includes the audio files themselves, along with the title, the parameters used to generate the solo (genre, key, tempo, speed), the creation date, and your per-solo settings such as stars and loop points. Library sync does not operate without an active subscription.</p>
+      <p><strong>App settings.</strong> Your Metronome settings (tempo, time signature, subdivision, and accents) and the anonymous analytics identifier described in section 1 are stored in the iCloud key-value store. This applies to all users, including those without a subscription. Because the analytics identifier is shared across your devices, usage events from those devices are attributed to a single anonymous identifier rather than to separate users. This identifier is not linked to your name, email address, or Apple Account.</p>
+      <p>Data synced through iCloud belongs to your Apple Account and is stored by Apple. We cannot access it. FretShed does not use iCloud Drive and does not place files in any location visible to other apps.</p>
+      <p>You can turn sync off at any time by disabling iCloud for FretShed in your device's system settings. There is no separate sync switch inside the app.</p>
 
       <h2>6. Third-Party Services</h2>
       <p>FretShed uses the following third-party services, each with their own privacy policies:</p>
@@ -87,7 +91,7 @@
       </ul>
 
       <h2>7. Data Retention</h2>
-      <p>Generated solos are stored locally on your device. You can delete them at any time within the app. If you have iCloud sync enabled, your saved-solo library is also stored in your private iCloud database, under your Apple Account. Analytics data is retained by Mixpanel in accordance with their data retention policy. Crash and diagnostic reports are retained by Sentry and New Relic in accordance with their data retention policies. Subscription data is retained by RevenueCat for as long as your subscription is active and for a reasonable period thereafter.</p>
+      <p>Generated solos are stored locally on your device. You can delete them at any time within the app. If you have an active subscription and iCloud sync enabled, your saved solos and recordings, including their audio files, are also stored in your private iCloud database, under your Apple Account. Analytics data is retained by Mixpanel in accordance with their data retention policy. Crash and diagnostic reports are retained by Sentry and New Relic in accordance with their data retention policies. Subscription data is retained by RevenueCat for as long as your subscription is active and for a reasonable period thereafter.</p>
 
       <h2>8. Children's Privacy</h2>
       <p>FretShed is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will take steps to delete it.</p>
