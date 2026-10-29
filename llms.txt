@@ -6,7 +6,7 @@ FretShed is made by Decibel Technologies Limited, a company registered in Englan
 
 ## What it does
 
-- Generates a new guitar solo on demand in rock, blues, jazz, metal or funk, in any major or minor key, from 60 to 120 bpm. Each solo plays over a backing track and is never repeated.
+- Uses AI to generate a new guitar solo in rock, blues, jazz, metal or funk, in any major or minor key, from 60 to 120 bpm. Each solo plays over a backing track. You will not hear the same one twice. That is where the AI's job ends: you work the solo out by ear and make it yours.
 - Gives you no tabs and no notation on purpose. You learn each solo by listening, which trains your ear.
 - Loops a phrase from point A to point B, and slows playback to as low as 50% speed without changing the pitch.
 - Includes an Ear Tuner that you tune by listening rather than by watching a needle. Tunings are standard, E♭ standard, drop D, drop D♭ and DADGAD.
