@@ -633,6 +633,15 @@ button:focus-visible {
   color: var(--color-text-primary);
 }
 
+.legal-content ol {
+  margin: 10px 0 14px 24px;
+}
+
+.legal-content ol li {
+  margin-bottom: 10px;
+  color: var(--color-text-primary);
+}
+
 .legal-content a {
   color: var(--color-accent-primary);
 }
