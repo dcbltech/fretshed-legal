@@ -16,7 +16,7 @@ FretShed is made by Decibel Technologies Limited, a company registered in Englan
 
 ## Pricing
 
-- Free to try.
+- Free to try: your first 3 solos are free, and the recorder, metronome and ear tuner are always free.
 - FretShed Pro Monthly: $14.99 a month.
 - FretShed Pro Yearly: $149.99 a year, about $12.50 a month.
 - Pro includes 80 fresh solos every 30 days on a rolling window, all five genres, and every feature on iPhone, iPad and Mac with one subscription.
