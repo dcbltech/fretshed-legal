@@ -33,6 +33,7 @@ FretShed is made by Decibel Technologies Limited, a company registered in Englan
 - [Home page](https://fretshed.dcbl.app/): features, how it works and pricing
 - [Is there an app that writes a guitar solo in the key and tempo you choose?](https://fretshed.dcbl.app/guitar-solo-in-your-key-and-tempo.html): what FretShed does and doesn't do, how to work a solo up by ear for a gig, and when another kind of tool fits better
 - [The gig is Friday and you don't have a solo. What now?](https://fretshed.dcbl.app/guitar-solo-for-a-gig-on-friday.html): a four-night plan to get a guitar solo ready for a gig, three places a solo can come from, and where FretShed fits
+- [How to learn a guitar solo by ear](https://fretshed.dcbl.app/learn-a-guitar-solo-by-ear.html): a phrase-by-phrase method for working out a solo by ear (loop, slow down, sing, find the first note and the shape, bring it to tempo), what to do when a phrase won't come, and where FretShed fits
 - [Support](https://fretshed.dcbl.app/support.html): help and contact
 - [Privacy Policy](https://fretshed.dcbl.app/privacy.html)
 - [Terms of Use](https://fretshed.dcbl.app/terms.html)
