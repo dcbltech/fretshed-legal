@@ -25,4 +25,15 @@
       observer.observe(el);
     });
   }
+
+  /* Time-limited banners: shown only between their data-start and data-end
+     (ISO dates), so a sale banner turns itself on and off without a deploy. */
+  var now = Date.now();
+  document.querySelectorAll("[data-start][data-end]").forEach(function (el) {
+    var start = Date.parse(el.getAttribute("data-start"));
+    var end = Date.parse(el.getAttribute("data-end"));
+    if (now >= start && now < end) {
+      el.hidden = false;
+    }
+  });
 })();

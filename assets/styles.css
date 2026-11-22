@@ -805,3 +805,40 @@ button:focus-visible {
     gap: 32px;
   }
 }
+
+/* --- Black Friday 2026 (remove after 2 Dec 2026) --- */
+.bf-banner {
+  background: var(--gradient-primary);
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.bf-banner[hidden] {
+  display: none;
+}
+
+.bf-banner a {
+  color: var(--color-text-primary);
+}
+
+.bf-banner-cta {
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.legal-content .bf-code {
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+}
+
+.legal-content .bf-redeem {
+  display: inline-block;
+  background: var(--gradient-primary);
+  color: var(--color-text-primary);
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-accent);
+}
